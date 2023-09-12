@@ -1,0 +1,140 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    margin-top: 47px;
+    margin-left: 42px;
+}
+
+.link-header{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.88px;
+    color: #17233D;
+    cursor: pointer;
+    margin-right: 32px;
+}
+
+.button-header{
+    Width: 124px;
+    Height: 51px;
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+
+.button-header:hover{
+    opacity: .8;
+}
+
+.button-header:active{
+    opacity: .5;
+}
+
+#imgmain{
+    margin: 163px 0 0 123px;
+    display: inline-block;
+}
+
+section{
+    display: inline-block;
+    margin-left: 84px;
+    width: 493px;
+}
+
+#h1section{
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.60px;
+    color: #161A49; 
+}
+
+#psection{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5 px;
+    margin-top: 47px;
+    margin-bottom: 55px;
+}
+
+#asection{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    cursor: pointer;
+}
+
+@media (max-width: 600px){
+    a{
+        display: none;
+    }
+    
+    #imgmain{
+        position: static;
+        Width:312px;
+        Height: 288px;
+    }
+
+    #h1section{
+        font-weight: 700;
+        font-size: 30px;
+        Line-height: 30px;
+        letter-spacing: 0.6 px;
+        text-align: Center;
+    }
+
+    #psection{
+        font-weight: 400;
+        font-size: 18px;
+        Line-height: 33px;
+        letter-spacing: 0.5 px;
+        text-align: center;
+    }
+
+    #asection{
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: 1 px;
+        color: #6FBF44;
+    }
+    
+    .button-header{
+        Width: 91px;
+        Height: 31px;
+        background: #6FBF44;
+        border: 1px solid #4CB538;
+        border-radius: 6px;
+        cursor: pointer;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 1px;
+        color: #FFFFFF;
+    }
+    
+    .button-header:hover{
+        opacity: .8;
+    }
+    
+    .button-header:active{
+        opacity: .5;
+    }
+
+}
